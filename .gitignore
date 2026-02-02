@@ -1,0 +1,35 @@
+# Build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Generated data files (large)
+*.jsonl
+*.json.gz
+
+# IDE and tools
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reference data cache (downloaded at runtime)
+.primer-genie/
+
+# Legacy directories (keeping for reference but not part of new tool)
+/Genie/
+/Genie-Utils/
+
+# Environment and secrets
+.env
+*.pem
+*.key
+
+# Test output
+/test_output/
